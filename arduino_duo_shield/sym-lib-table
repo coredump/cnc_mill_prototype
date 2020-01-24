@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name conn_01x08_arduino_power)(type Legacy)(uri ${KIPRJMOD}/conn_01x08_arduino_power.lib)(options "")(descr ""))
   (lib (name sw_spdt)(type Legacy)(uri ${KIPRJMOD}/sw_spdt.lib)(options "")(descr ""))
+  (lib (name SparkFun-Connectors)(type Legacy)(uri ${KIPRJMOD}/SparkFun-KiCad-Libraries/Libraries/SparkFun-Connectors.lib)(options "")(descr ""))
 )

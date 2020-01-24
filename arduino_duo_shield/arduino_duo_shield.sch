@@ -412,18 +412,16 @@ $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5D86A755
-P 11100 6200
-F 0 "#PWR012" H 11100 5950 50  0001 C CNN
-F 1 "GND" H 11105 6027 50  0000 C CNN
-F 2 "" H 11100 6200 50  0001 C CNN
-F 3 "" H 11100 6200 50  0001 C CNN
-	1    11100 6200
+P 10350 4800
+F 0 "#PWR012" H 10350 4550 50  0001 C CNN
+F 1 "GND" H 10355 4627 50  0000 C CNN
+F 2 "" H 10350 4800 50  0001 C CNN
+F 3 "" H 10350 4800 50  0001 C CNN
+	1    10350 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 1250 1700 2600
-Wire Wire Line
-	9200 3400 9300 3400
 Text GLabel 3450 3600 2    50   Output ~ 0
 m1dir
 Text GLabel 3450 3500 2    50   Output ~ 0
@@ -619,124 +617,6 @@ NoConn ~ 3000 2200
 NoConn ~ 3000 2300
 NoConn ~ 2900 6600
 NoConn ~ 1850 2150
-Wire Wire Line
-	10500 3500 9400 3500
-Wire Wire Line
-	10500 3600 9500 3600
-Wire Wire Line
-	10500 4000 9900 4000
-Wire Wire Line
-	10500 4200 10100 4200
-Wire Wire Line
-	10500 4300 10200 4300
-Wire Wire Line
-	10500 4500 10400 4500
-Wire Wire Line
-	10500 4100 10000 4100
-Wire Wire Line
-	11000 3400 11100 3400
-Wire Wire Line
-	11100 3400 11100 3500
-Wire Wire Line
-	11100 4500 11000 4500
-Connection ~ 11100 4500
-Wire Wire Line
-	11100 4500 11100 4850
-Wire Wire Line
-	11000 4400 11100 4400
-Connection ~ 11100 4400
-Wire Wire Line
-	11100 4400 11100 4500
-Wire Wire Line
-	11000 4300 11100 4300
-Connection ~ 11100 4300
-Wire Wire Line
-	11100 4300 11100 4400
-Wire Wire Line
-	11000 4200 11100 4200
-Connection ~ 11100 4200
-Wire Wire Line
-	11100 4200 11100 4300
-Wire Wire Line
-	11000 4100 11100 4100
-Connection ~ 11100 4100
-Wire Wire Line
-	11100 4100 11100 4200
-Wire Wire Line
-	11000 4000 11100 4000
-Connection ~ 11100 4000
-Wire Wire Line
-	11100 4000 11100 4100
-Wire Wire Line
-	11000 3900 11100 3900
-Connection ~ 11100 3900
-Wire Wire Line
-	11100 3900 11100 4000
-Wire Wire Line
-	11000 3800 11100 3800
-Connection ~ 11100 3800
-Wire Wire Line
-	11100 3800 11100 3900
-Wire Wire Line
-	11000 3700 11100 3700
-Connection ~ 11100 3700
-Wire Wire Line
-	11100 3700 11100 3800
-Wire Wire Line
-	11000 3600 11100 3600
-Connection ~ 11100 3600
-Wire Wire Line
-	11100 3600 11100 3700
-Wire Wire Line
-	11000 3500 11100 3500
-Connection ~ 11100 3500
-Wire Wire Line
-	11100 3500 11100 3600
-$Comp
-L Connector_Generic:Conn_02x12_Odd_Even J3
-U 1 1 5E4D7194
-P 10700 3900
-F 0 "J3" H 10750 4617 50  0000 C CNN
-F 1 "Motor_Control" H 10750 4526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 10700 3900 50  0001 C CNN
-F 3 "~" H 10700 3900 50  0001 C CNN
-	1    10700 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 3700 9600 3700
-Wire Wire Line
-	10500 3900 9800 3900
-Wire Wire Line
-	10500 3800 9700 3800
-Wire Wire Line
-	5550 2450 5950 2450
-Wire Wire Line
-	5550 2550 5950 2550
-Wire Wire Line
-	5550 2650 5950 2650
-Wire Wire Line
-	5550 2750 5950 2750
-Wire Wire Line
-	5550 2850 5950 2850
-Wire Wire Line
-	5550 2950 5950 2950
-Wire Wire Line
-	5550 3050 5950 3050
-Wire Wire Line
-	5550 3150 5950 3150
-Wire Wire Line
-	5550 3250 5950 3250
-Wire Wire Line
-	5550 3350 5950 3350
-Wire Wire Line
-	5550 3450 5950 3450
-Wire Wire Line
-	5550 3550 5950 3550
-Wire Wire Line
-	5550 3650 5950 3650
-Wire Wire Line
-	5550 3750 5950 3750
 $Comp
 L power:+3V3 #PWR06
 U 1 1 56D71AA9
@@ -864,39 +744,6 @@ Wire Wire Line
 	4350 5800 4350 1250
 Wire Wire Line
 	1700 1250 4350 1250
-$Sheet
-S 8400 3150 800  1600
-U 5D91D2DB
-F0 "Level_Shifter" 50
-F1 "Level_Shifter.sch" 50
-F2 "lo_1_1" I L 8400 3400 50 
-F3 "lo_1_2" I L 8400 3500 50 
-F4 "lo_1_3" I L 8400 3600 50 
-F5 "lo_1_4" I L 8400 3700 50 
-F6 "lo_1_5" I L 8400 3800 50 
-F7 "lo_1_6" I L 8400 3900 50 
-F8 "lo_2_1" I L 8400 4000 50 
-F9 "lo_2_2" I L 8400 4100 50 
-F10 "lo_2_3" I L 8400 4200 50 
-F11 "lo_2_4" I L 8400 4300 50 
-F12 "lo_2_5" I L 8400 4400 50 
-F13 "lo_2_6" I L 8400 4500 50 
-F14 "in_v_hi" I R 9200 3250 50 
-F15 "in_v_lo" I L 8400 3250 50 
-F16 "in_gnd" I L 8400 4650 50 
-F17 "hi_1_1" O R 9200 3400 50 
-F18 "hi_1_2" O R 9200 3500 50 
-F19 "hi_1_3" O R 9200 3600 50 
-F20 "hi_1_4" O R 9200 3700 50 
-F21 "hi_1_5" O R 9200 3800 50 
-F22 "hi_1_6" O R 9200 3900 50 
-F23 "hi_2_1" O R 9200 4000 50 
-F24 "hi_2_2" O R 9200 4100 50 
-F25 "hi_2_3" O R 9200 4200 50 
-F26 "hi_2_4" O R 9200 4300 50 
-F27 "hi_2_5" O R 9200 4400 50 
-F28 "hi_2_6" O R 9200 4500 50 
-$EndSheet
 Wire Wire Line
 	6900 1250 8300 1250
 Wire Wire Line
@@ -986,232 +833,10 @@ Wire Wire Line
 	5100 5450 4900 5450
 Wire Wire Line
 	4900 5350 5100 5350
-$Comp
-L Connector_Generic:Conn_02x12_Odd_Even J9
-U 1 1 5E0C2193
-P 10700 5350
-F 0 "J9" H 10750 6067 50  0000 C CNN
-F 1 "Motor_Control_Mirror" H 10750 5976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 10700 5350 50  0001 C CNN
-F 3 "~" H 10700 5350 50  0001 C CNN
-	1    10700 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11000 4850 11100 4850
-Connection ~ 11100 4850
-Wire Wire Line
-	11100 4850 11100 4950
-Wire Wire Line
-	11100 4950 11000 4950
-Connection ~ 11100 4950
-Wire Wire Line
-	11100 4950 11100 5050
-Wire Wire Line
-	11000 5050 11100 5050
-Connection ~ 11100 5050
-Wire Wire Line
-	11100 5050 11100 5150
-Wire Wire Line
-	11000 5150 11100 5150
-Connection ~ 11100 5150
-Wire Wire Line
-	11100 5150 11100 5250
-Wire Wire Line
-	11000 5250 11100 5250
-Connection ~ 11100 5250
-Wire Wire Line
-	11100 5250 11100 5350
-Wire Wire Line
-	11000 5350 11100 5350
-Connection ~ 11100 5350
-Wire Wire Line
-	11100 5350 11100 5450
-Wire Wire Line
-	11000 5450 11100 5450
-Connection ~ 11100 5450
-Wire Wire Line
-	11100 5450 11100 5550
-Wire Wire Line
-	11000 5550 11100 5550
-Connection ~ 11100 5550
-Wire Wire Line
-	11100 5550 11100 5650
-Wire Wire Line
-	11000 5650 11100 5650
-Connection ~ 11100 5650
-Wire Wire Line
-	11100 5650 11100 5750
-Wire Wire Line
-	11000 5750 11100 5750
-Connection ~ 11100 5750
-Wire Wire Line
-	11100 5750 11100 5850
-Wire Wire Line
-	11000 5850 11100 5850
-Connection ~ 11100 5850
-Wire Wire Line
-	11100 5850 11100 5950
-Wire Wire Line
-	11000 5950 11100 5950
-Connection ~ 11100 5950
-Wire Wire Line
-	11100 5950 11100 6200
-$Comp
-L Connector:Conn_01x02_Female J2
-U 1 1 5E163504
-P 650 7300
-F 0 "J2" V 650 7150 50  0000 R CNN
-F 1 "EStop" V 500 7550 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 650 7300 50  0001 C CNN
-F 3 "~" H 650 7300 50  0001 C CNN
-	1    650  7300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 3400 9300 4850
-Wire Wire Line
-	9300 4850 10500 4850
-Connection ~ 9300 3400
-Wire Wire Line
-	9300 3400 10500 3400
-Wire Wire Line
-	9400 3500 9400 4950
-Wire Wire Line
-	9400 4950 10500 4950
-Connection ~ 9400 3500
-Wire Wire Line
-	9400 3500 9200 3500
-Wire Wire Line
-	9500 3600 9500 5050
-Wire Wire Line
-	9500 5050 10500 5050
-Connection ~ 9500 3600
-Wire Wire Line
-	9500 3600 9200 3600
-Wire Wire Line
-	9600 3700 9600 5150
-Wire Wire Line
-	9600 5150 10500 5150
-Connection ~ 9600 3700
-Wire Wire Line
-	9600 3700 10500 3700
-Wire Wire Line
-	9700 3800 9700 5250
-Wire Wire Line
-	9700 5250 10500 5250
-Connection ~ 9700 3800
-Wire Wire Line
-	9700 3800 9200 3800
-Wire Wire Line
-	9800 3900 9800 5350
-Wire Wire Line
-	9800 5350 10500 5350
-Connection ~ 9800 3900
-Wire Wire Line
-	9800 3900 9200 3900
-Wire Wire Line
-	9900 4000 9900 5450
-Wire Wire Line
-	9900 5450 10500 5450
-Connection ~ 9900 4000
-Wire Wire Line
-	9900 4000 9200 4000
-Wire Wire Line
-	10000 4100 10000 5550
-Wire Wire Line
-	10000 5550 10500 5550
-Connection ~ 10000 4100
-Wire Wire Line
-	10000 4100 9200 4100
-Wire Wire Line
-	10100 4200 10100 5650
-Wire Wire Line
-	10100 5650 10500 5650
-Connection ~ 10100 4200
-Wire Wire Line
-	10100 4200 9200 4200
-Wire Wire Line
-	10200 4300 10200 5750
-Wire Wire Line
-	10200 5750 10500 5750
-Connection ~ 10200 4300
-Wire Wire Line
-	10200 4300 9200 4300
-Wire Wire Line
-	10500 4400 10300 4400
-Wire Wire Line
-	10300 4400 10300 5850
-Wire Wire Line
-	10300 5850 10500 5850
-Connection ~ 10300 4400
-Wire Wire Line
-	10300 4400 9200 4400
-Wire Wire Line
-	10400 4500 10400 5950
-Wire Wire Line
-	10400 5950 10500 5950
-Connection ~ 10400 4500
-Wire Wire Line
-	10400 4500 9200 4500
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5E2A7440
-P 7300 5800
-AR Path="/5D7DFDC0/5E2A7440" Ref="J?"  Part="1" 
-AR Path="/5E2A7440" Ref="J8"  Part="1" 
-F 0 "J8" H 7272 5774 50  0000 R CNN
-F 1 "inverter_power" H 7272 5683 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7300 5800 50  0001 C CNN
-F 3 "~" H 7300 5800 50  0001 C CNN
-	1    7300 5800
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 5550 7100 5550
 Wire Wire Line
 	6850 5650 7100 5650
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5E2CBC81
-P 7300 5350
-AR Path="/5D7DFDC0/5E2CBC81" Ref="J?"  Part="1" 
-AR Path="/5E2CBC81" Ref="J5"  Part="1" 
-F 0 "J5" H 7272 5324 50  0000 R CNN
-F 1 "inverter_freq" H 7272 5233 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7300 5350 50  0001 C CNN
-F 3 "~" H 7300 5350 50  0001 C CNN
-	1    7300 5350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5E2B9818
-P 7300 5550
-AR Path="/5D7DFDC0/5E2B9818" Ref="J?"  Part="1" 
-AR Path="/5E2B9818" Ref="J6"  Part="1" 
-F 0 "J6" H 7272 5524 50  0000 R CNN
-F 1 "inverter_cmd" H 7272 5433 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7300 5550 50  0001 C CNN
-F 3 "~" H 7300 5550 50  0001 C CNN
-	1    7300 5550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x18 J4
-U 1 1 5DAA928F
-P 5350 3250
-F 0 "J4" H 5600 4350 50  0000 C CNN
-F 1 "Limit_Switches" H 5350 4250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 5350 3250 50  0001 C CNN
-F 3 "~" H 5350 3250 50  0001 C CNN
-	1    5350 3250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 3850 5950 3850
-Wire Wire Line
-	5550 3950 5950 3950
 Wire Wire Line
 	5550 4050 5950 4050
 Wire Wire Line
@@ -1333,4 +958,305 @@ F 3 "~" H 1050 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1050 6500 1050 7300
+$Sheet
+S 8400 3150 800  1600
+U 5D91D2DB
+F0 "Level_Shifter" 50
+F1 "Level_Shifter.sch" 50
+F2 "lo_1_1" I L 8400 3400 50 
+F3 "lo_1_2" I L 8400 3500 50 
+F4 "lo_1_3" I L 8400 3600 50 
+F5 "lo_1_4" I L 8400 3700 50 
+F6 "lo_1_5" I L 8400 3800 50 
+F7 "lo_1_6" I L 8400 3900 50 
+F8 "lo_2_1" I L 8400 4000 50 
+F9 "lo_2_2" I L 8400 4100 50 
+F10 "lo_2_3" I L 8400 4200 50 
+F11 "lo_2_4" I L 8400 4300 50 
+F12 "lo_2_5" I L 8400 4400 50 
+F13 "lo_2_6" I L 8400 4500 50 
+F14 "in_v_hi" I R 9200 3250 50 
+F15 "in_v_lo" I L 8400 3250 50 
+F16 "in_gnd" I L 8400 4650 50 
+F17 "hi_1_1" O R 9200 3400 50 
+F18 "hi_1_2" O R 9200 3500 50 
+F19 "hi_1_3" O R 9200 3600 50 
+F20 "hi_1_4" O R 9200 3700 50 
+F21 "hi_1_5" O R 9200 3800 50 
+F22 "hi_1_6" O R 9200 3900 50 
+F23 "hi_2_1" O R 9200 4000 50 
+F24 "hi_2_2" O R 9200 4100 50 
+F25 "hi_2_3" O R 9200 4200 50 
+F26 "hi_2_4" O R 9200 4300 50 
+F27 "hi_2_5" O R 9200 4400 50 
+F28 "hi_2_6" O R 9200 4500 50 
+$EndSheet
+Wire Wire Line
+	9200 4500 10350 4500
+Wire Wire Line
+	9200 4400 10350 4400
+Wire Wire Line
+	9200 4300 10350 4300
+Wire Wire Line
+	9200 4200 10350 4200
+Wire Wire Line
+	9200 4100 10350 4100
+Wire Wire Line
+	9200 4000 10350 4000
+Wire Wire Line
+	9200 3900 10350 3900
+Wire Wire Line
+	9200 3800 10350 3800
+Wire Wire Line
+	9200 3700 10350 3700
+Wire Wire Line
+	9200 3600 10350 3600
+Wire Wire Line
+	9200 3500 10350 3500
+Wire Wire Line
+	9200 3400 10350 3400
+Wire Wire Line
+	10350 4800 10350 4700
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5E37CD5D
+P 5350 4050
+F 0 "J4" H 5500 3950 50  0000 C CNN
+F 1 "Probe" H 5550 4050 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 5350 4050 50  0001 C CNN
+F 3 "~" H 5350 4050 50  0001 C CNN
+	1    5350 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J14
+U 1 1 5E37DC09
+P 10550 3500
+F 0 "J14" H 10700 3400 50  0000 C CNN
+F 1 "M1" H 10700 3500 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-3" H 10550 3500 50  0001 C CNN
+F 3 "~" H 10550 3500 50  0001 C CNN
+	1    10550 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J15
+U 1 1 5E37EE25
+P 10550 3800
+F 0 "J15" H 10700 3700 50  0000 C CNN
+F 1 "M2" H 10700 3800 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-3" H 10550 3800 50  0001 C CNN
+F 3 "~" H 10550 3800 50  0001 C CNN
+	1    10550 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J16
+U 1 1 5E37F305
+P 10550 4100
+F 0 "J16" H 10700 4000 50  0000 C CNN
+F 1 "M3" H 10700 4100 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-3" H 10550 4100 50  0001 C CNN
+F 3 "~" H 10550 4100 50  0001 C CNN
+	1    10550 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J17
+U 1 1 5E37F922
+P 10550 4400
+F 0 "J17" H 10700 4300 50  0000 C CNN
+F 1 "M4" H 10700 4400 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-3" H 10550 4400 50  0001 C CNN
+F 3 "~" H 10550 4400 50  0001 C CNN
+	1    10550 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J10
+U 1 1 5E38565C
+P 7300 5350
+F 0 "J10" H 7380 5342 50  0000 L CNN
+F 1 "Inverter_Analog" H 7380 5251 50  0000 L CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 7300 5350 50  0001 C CNN
+F 3 "~" H 7300 5350 50  0001 C CNN
+	1    7300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J11
+U 1 1 5E38637C
+P 7300 5550
+F 0 "J11" H 7380 5542 50  0000 L CNN
+F 1 "Inverter_Direction" H 7380 5451 50  0000 L CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 7300 5550 50  0001 C CNN
+F 3 "~" H 7300 5550 50  0001 C CNN
+	1    7300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 5E3868BC
+P 7300 5800
+F 0 "J12" H 7380 5792 50  0000 L CNN
+F 1 "Inverter_12V" H 7380 5701 50  0000 L CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 7300 5800 50  0001 C CNN
+F 3 "~" H 7300 5800 50  0001 C CNN
+	1    7300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J13
+U 1 1 5E38918E
+P 650 7300
+F 0 "J13" H 568 7517 50  0000 C CNN
+F 1 "EStop" H 568 7426 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 650 7300 50  0001 C CNN
+F 3 "~" H 650 7300 50  0001 C CNN
+	1    650  7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J18
+U 1 1 5E393787
+P 10550 4600
+F 0 "J18" H 10630 4592 50  0000 L CNN
+F 1 "GND" H 10630 4501 50  0000 L CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 10550 4600 50  0001 C CNN
+F 3 "~" H 10550 4600 50  0001 C CNN
+	1    10550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4600 10350 4700
+Connection ~ 10350 4700
+$Comp
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 5E423528
+P 5050 2700
+F 0 "J1" H 5200 2650 50  0000 C CNN
+F 1 "Limit_XY" H 5300 2750 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-4" H 5050 2700 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
+	1    5050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J3
+U 1 1 5E425D9A
+P 5050 3500
+F 0 "J3" H 5200 3300 50  0000 C CNN
+F 1 "Limit_ZA" H 5300 3400 50  0000 C CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-4" H 5050 3500 50  0001 C CNN
+F 3 "~" H 5050 3500 50  0001 C CNN
+	1    5050 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 2550 5450 2750
+Wire Wire Line
+	5450 2550 5950 2550
+Wire Wire Line
+	5450 3950 5950 3950
+Wire Wire Line
+	5450 3750 5950 3750
+Connection ~ 5450 3750
+Wire Wire Line
+	5450 3750 5450 3950
+Wire Wire Line
+	5450 3550 5950 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	5450 3550 5450 3750
+Wire Wire Line
+	5450 3350 5950 3350
+Connection ~ 5450 3350
+Wire Wire Line
+	5450 3350 5450 3550
+Wire Wire Line
+	5450 3150 5950 3150
+Connection ~ 5450 3150
+Wire Wire Line
+	5450 3150 5450 3350
+Wire Wire Line
+	5450 2950 5950 2950
+Connection ~ 5450 2950
+Wire Wire Line
+	5450 2950 5450 3150
+Wire Wire Line
+	5450 2750 5950 2750
+Connection ~ 5450 2750
+Wire Wire Line
+	5450 2750 5450 2950
+Wire Wire Line
+	5350 2650 5950 2650
+Wire Wire Line
+	5350 2650 5350 2600
+Wire Wire Line
+	5350 2600 5250 2600
+Wire Wire Line
+	5800 2500 5800 2450
+Wire Wire Line
+	5800 2450 5950 2450
+Wire Wire Line
+	5250 2500 5800 2500
+Wire Wire Line
+	5400 2850 5400 2700
+Wire Wire Line
+	5400 2700 5250 2700
+Wire Wire Line
+	5400 2850 5950 2850
+Wire Wire Line
+	5350 3050 5350 2800
+Wire Wire Line
+	5350 2800 5250 2800
+Wire Wire Line
+	5350 3050 5950 3050
+Wire Wire Line
+	5350 3250 5350 3300
+Wire Wire Line
+	5350 3300 5250 3300
+Wire Wire Line
+	5350 3250 5950 3250
+Wire Wire Line
+	5350 3450 5350 3400
+Wire Wire Line
+	5350 3400 5250 3400
+Wire Wire Line
+	5350 3450 5950 3450
+Wire Wire Line
+	5350 3650 5350 3500
+Wire Wire Line
+	5350 3500 5250 3500
+Wire Wire Line
+	5350 3650 5950 3650
+Wire Wire Line
+	5300 3850 5300 3600
+Wire Wire Line
+	5300 3600 5250 3600
+Wire Wire Line
+	5300 3850 5950 3850
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5E5095FF
+P 5050 3100
+F 0 "J2" H 5150 3000 50  0000 L CNN
+F 1 "Limit_COM" H 5150 3100 50  0000 L CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-2" H 5050 3100 50  0001 C CNN
+F 3 "~" H 5050 3100 50  0001 C CNN
+	1    5050 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 3000 5300 3000
+Wire Wire Line
+	5300 3000 5300 2950
+Wire Wire Line
+	5300 2950 5450 2950
+Wire Wire Line
+	5250 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3150
+Wire Wire Line
+	5300 3150 5450 3150
 $EndSCHEMATC
